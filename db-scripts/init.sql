@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS sform (
+    uuid BINARY(16) PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    message VARCHAR(255) NOT NULL
+);
